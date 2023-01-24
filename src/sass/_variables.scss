@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+$primary-font: 'Ubuntu', sans-serif;
+
+$dark: (
+    bg-color: #151515,              //dark theme background
+    text-color: #000,            //text color
+
+    number-border: #333333,         //number border
+    number-color: #FFF,             //number interior
+    number-active: #727272,         //number active 
+    number-hover: #505050,          //number hover
+
+    sign-border: #FE9F06,           //sign border
+    sign-color: #FFF,               //sign interior
+    sign-active: #FFF,              //sign active 
+    sign-hover: #FFBF57,            //sign hover
+
+    action-border: #A5A5A5,         //action border
+    action-color: #212529,          //action interior
+    action-active: #D7D7D7,         //action active 
+    action-hover: #D7D7D77C,        //action hover 
+);
+
+$ligth: (
+    bg-color: #EBEBEB,              //ligth theme background
+    text-color: #FFF,            //text color
+
+    number-border: #D4D4D4,         //number border
+    number-color: #000,             //number interior
+    number-active: #727272,         //number active 
+    number-hover: #BFBFBF,          //number hover
+
+    sign-border: #FE9F06,           //sign border
+    sign-color: #000,               //sign interior
+    sign-active: #724700,           //sign active 
+    sign-hover: #B26E00,            //sign hover
+
+    action-border: #939393,         //action border
+    action-color: #FFF,             //action interior
+    action-active: #333333,         //action active 
+    action-hover: #5D5D5D,          //action hover
+);

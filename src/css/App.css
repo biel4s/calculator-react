@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+#root {
+  height: 100vh;
+}
+
+body.light {
+  background-image: linear-gradient(to right, #DB8700, #FFDBA0);
+}
+body.light .container h1,
+body.light .container h2,
+body.light .container label,
+body.light .container p {
+  color: #000;
+  transition: 0.5s;
+}
+body.light .container .calculator {
+  background-color: #EBEBEB;
+  border: 10px solid #EBEBEB;
+  box-shadow: 15px 15px 30px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+body.light .container .calculator input[type=text] {
+  background-color: #EBEBEB;
+  color: #000;
+  height: 125px;
+  width: 290px;
+  font-size: 45px;
+  transition: 0.5s;
+}
+body.light .container .calculator .keypad {
+  grid-template-columns: repeat(4, 5rem);
+  grid-auto-rows: minmax(5rem, auto);
+  font-size: 40px;
+}
+body.light .container .calculator .keypad button {
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  margin: 5px;
+  transition: 0.7s;
+}
+body.light .container .calculator .keypad .number {
+  color: #000;
+  background-color: #D4D4D4;
+}
+body.light .container .calculator .keypad .number:hover {
+  background-color: #BFBFBF;
+  transition: 0.3s;
+}
+body.light .container .calculator .keypad .number:active {
+  background-color: #727272;
+  transition: 0s;
+}
+body.light .container .calculator .keypad .sign {
+  color: #000;
+  background-color: #FE9F06;
+}
+body.light .container .calculator .keypad .sign:hover {
+  background-color: #B26E00;
+  transition: 0.3s;
+}
+body.light .container .calculator .keypad .sign:active {
+  background-color: #724700;
+  color: #724700;
+  transition: 0s;
+}
+body.light .container .calculator .keypad .action {
+  color: #FFF;
+  background-color: #939393;
+}
+body.light .container .calculator .keypad .action:hover {
+  background-color: #5D5D5D;
+  transition: 0.3s;
+}
+body.light .container .calculator .keypad .action:active {
+  background-color: #333333;
+  transition: 0s;
+}
+body.light .container .calculator .keypad #clear {
+  grid-column: 1/3;
+}
+body.light .container .calculator .keypad #zero {
+  grid-column: 1/3;
+  text-align: left !important;
+  padding-left: 25px;
+}
+
+#root {
+  height: 100vh;
+}
+
+body.dark {
+  background-image: linear-gradient(to right,#955C00, #080500);
+}
+body.dark .container h1,
+body.dark .container h2,
+body.dark .container label,
+body.dark .container p {
+  color: #FFF;
+  transition: 0.5s;
+}
+body.dark .container .calculator {
+  background-color: #151515;
+  border: 10px solid #151515;
+  box-shadow: 15px 15px 30px 10px rgb(0, 0, 0);
+  transition: 0.5s;
+}
+body.dark .container .calculator input[type=text] {
+  background-color: #151515;
+  color: #FFF;
+  height: 125px;
+  width: 290px;
+  font-size: 45px;
+  transition: 0.5s;
+}
+body.dark .container .calculator .keypad {
+  grid-template-columns: repeat(4, 5rem);
+  grid-auto-rows: minmax(5rem, auto);
+  font-size: 40px;
+}
+body.dark .container .calculator .keypad button {
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  margin: 5px;
+  transition: 0.7s;
+}
+body.dark .container .calculator .keypad .number {
+  color: #FFF;
+  background-color: #333333;
+}
+body.dark .container .calculator .keypad .number:hover {
+  background-color: #505050;
+  transition: 0.3s;
+}
+body.dark .container .calculator .keypad .number:active {
+  background-color: #727272;
+  transition: 0s;
+}
+body.dark .container .calculator .keypad .sign {
+  color: #FFF;
+  background-color: #FE9F06;
+}
+body.dark .container .calculator .keypad .sign:hover {
+  background-color: #FFBF57;
+  transition: 0.3s;
+}
+body.dark .container .calculator .keypad .sign:active {
+  background-color: #FFF;
+  color: #FFF;
+  transition: 0s;
+}
+body.dark .container .calculator .keypad .action {
+  background-color: #A5A5A5;
+  color: #212529;
+}
+body.dark .container .calculator .keypad .action:hover {
+  background-color: rgba(215, 215, 215, 0.4862745098);
+  transition: 0.3s;
+}
+body.dark .container .calculator .keypad .action:active {
+  background-color: #D7D7D7;
+  transition: 0s;
+}
+body.dark .container .calculator .keypad #clear {
+  grid-column: 1/3;
+}
+body.dark .container .calculator .keypad #zero {
+  grid-column: 1/3;
+  text-align: left !important;
+  padding-left: 25px;
+}
