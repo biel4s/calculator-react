@@ -58,7 +58,7 @@ class App extends Component {
     }
     
     fact = () => {
-      	const API =
+      	const APIKey =
              //eslint-disable-next-line
              `http://numbersapi.com/${eval(this.state.result)}/math?json`;
         
@@ -74,7 +74,7 @@ class App extends Component {
 
         // //eslint-disable-next-line
         //fetch(`https://numbersapi.p.rapidapi.com/${eval(this.state.result)}/math?json=true`, options)
-        fetch(API)
+        fetch(APIKey)
             .then(response => {
                 if (response.ok) {
                     return response;
