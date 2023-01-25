@@ -52,6 +52,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ### `npm install react-switch`
 
 ----
+![](https://i.imgur.com/ihkQZbJ.gif)
+
 ## Light Mode
 ![](https://i.imgur.com/xeTyEXI.png)
 
