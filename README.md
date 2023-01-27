@@ -55,7 +55,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ![](https://i.imgur.com/ihkQZbJ.gif)
 
 ## Light Mode
-![](https://i.imgur.com/xeTyEXI.png)
+![](https://i.imgur.com/Fnd5P9p.png)
 
 ## Dark Mode
 ![](https://i.imgur.com/PMcNVsy.png)
