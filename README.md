@@ -47,12 +47,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ---
 
-### Used API:
+### API:
   [Numbers API](http://numbersapi.com)
   
   http://numbersapi.com
   
-### API Info
   URL 
 ```
   http://numbersapi.com/{RESULT}/math?json
