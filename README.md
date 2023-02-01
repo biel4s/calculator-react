@@ -8,6 +8,43 @@
 ## Dark Mode
 ![](https://i.imgur.com/jDEDhPH.png)
 ---
+# Instructions
+
+### Clone this repository
+
+```bash 
+  $ git clone https://github.com/biel4s/calculator-react.git 
+```
+### Install all dependencies. You need [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
+
+```bash
+  $ npm install
+```
+
+### Install React Bootstrap 
+  
+```bash 
+  $ npm install react-bootstrap bootstrap`
+```
+
+### Install React Sass Stylesheet
+  
+```bash 
+  $ npm install sass`
+```
+
+### Install React Switch
+
+```bash 
+  $ npm install react-switch`
+```
+
+### Run
+```bash
+  $ npm start
+```
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -49,17 +86,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## How to install React Bootstrap 
-  
-### `npm install react-bootstrap bootstrap`
 
-## How to install React Sass Stylesheet
-  
-### `npm install sass`
-
-## How to install React Switch
-
-### `npm install react-switch`
 
 ## Learn More
 
