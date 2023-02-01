@@ -55,7 +55,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### API Info
   URL 
 ```
-  http://numbersapi.com/${RESULT}/math?json
+  http://numbersapi.com/{RESULT}/math?json
 ```
   
 ---
