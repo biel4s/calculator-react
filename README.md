@@ -24,19 +24,19 @@
 ### Install React Bootstrap 
   
 ```bash 
-  $ npm install react-bootstrap bootstrap`
+  $ npm install react-bootstrap bootstrap
 ```
 
 ### Install React Sass Stylesheet
   
 ```bash 
-  $ npm install sass`
+  $ npm install sass
 ```
 
 ### Install React Switch
 
 ```bash 
-  $ npm install react-switch`
+  $ npm install react-switch
 ```
 
 ### Run
