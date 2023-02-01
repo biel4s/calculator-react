@@ -1,3 +1,11 @@
+![](https://i.imgur.com/ihkQZbJ.gif)
+
+## Light Mode
+![](https://i.imgur.com/Fnd5P9p.png)
+
+## Dark Mode
+![](https://i.imgur.com/jDEDhPH.png)
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -50,15 +58,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## How to install React Switch
 
 ### `npm install react-switch`
-
----
-![](https://i.imgur.com/ihkQZbJ.gif)
-
-## Light Mode
-![](https://i.imgur.com/Fnd5P9p.png)
-
-## Dark Mode
-![](https://i.imgur.com/jDEDhPH.png)
 
 ## Learn More
 
