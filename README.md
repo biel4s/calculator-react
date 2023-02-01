@@ -45,13 +45,18 @@
 ```
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### API Used:
+---
+
+### Used API:
   [Numbers API](http://numbersapi.com)
   
   http://numbersapi.com
   
 ### API Info
-  URL `http://numbersapi.com/${eval(this.state.result)}/math?json`
+  URL 
+```
+  http://numbersapi.com/${RESULT}/math?json
+```
   
 ---
 
