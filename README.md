@@ -13,35 +13,35 @@
 ### Clone this repository
 
 ```bash 
-  $ git clone https://github.com/biel4s/calculator-react.git 
+  git clone https://github.com/biel4s/calculator-react.git 
 ```
 ### Install all dependencies. You need [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
 
 ```bash
-  $ npm install
+  npm install
 ```
 
 ### Install React Bootstrap 
   
 ```bash 
-  $ npm install react-bootstrap bootstrap
+  npm install react-bootstrap bootstrap
 ```
 
 ### Install React Sass Stylesheet
   
 ```bash 
-  $ npm install sass
+  npm install sass
 ```
 
 ### Install React Switch
 
 ```bash 
-  $ npm install react-switch
+  npm install react-switch
 ```
 
 ### Run
 ```bash
-  $ npm start
+  npm start
 ```
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
