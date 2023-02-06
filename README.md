@@ -47,18 +47,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ---
 
-### API:
+## API:
   [Numbers API](http://numbersapi.com)
   
   http://numbersapi.com
   
-  URL 
+### URL 
 ```
   http://numbersapi.com/{RESULT}/math?json
 ```
   
 ---
 
-### Things to do: 
+## Things to do: 
 - Hide API using node.js
 - .
