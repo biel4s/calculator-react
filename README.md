@@ -61,4 +61,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Things to do: 
 - Hide API using node.js
+- Number at the top after clicking action button
 - .
