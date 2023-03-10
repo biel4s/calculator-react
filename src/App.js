@@ -4,7 +4,7 @@ import Keypad from './components/keypad';
 import Result from './components/result';
 import DarkTheme from './components/darkTheme';
 
-class App extends Component {
+export default class App extends Component {
 
     constructor(){
         super();
@@ -120,5 +120,3 @@ class App extends Component {
         );
     }
 }
-
-export default App;
