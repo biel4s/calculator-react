@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Result extends Component {
+export default class Result extends Component {
 
     render() {
         let {result} = this.props;
@@ -9,5 +9,3 @@ class Result extends Component {
         )
     }
 }
-
-export default Result;
