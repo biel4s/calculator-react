@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Keypad extends Component {
+export default class Keypad extends Component {
 
     render() {
         return (
@@ -31,5 +31,3 @@ class Keypad extends Component {
         )
     }
 }
-
-export default Keypad;
