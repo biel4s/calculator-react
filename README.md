@@ -13,7 +13,7 @@
 ### Clone this repository
 
 ```bash 
-git clone https://github.com/biel4s/calculator-react.git 
+git clone https://github.com/biel4s/calculator-react.git
 ```
 ### Install all dependencies. You need [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
 
