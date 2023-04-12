@@ -54,12 +54,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
   
 ### URL 
 ```
-  http://numbersapi.com/{RESULT}/math?json
+http://numbersapi.com/{RESULT}/math?json
 ```
 
 ### Figma: 
 ```
-  https://www.figma.com/file/J5bNMeomK0TTKtDSsz4twP/Calculator-React
+https://www.figma.com/file/J5bNMeomK0TTKtDSsz4twP/Calculator-React
 ```
   
 ---
