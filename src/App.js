@@ -91,7 +91,7 @@ export default class App extends Component {
 	    
         axios.request(options)
         .then((response) => {
-            console.log(response.data);
+            //console.log(response.data);
             this.setState({ text: response.data.text });
 
         }).catch((error) => {
