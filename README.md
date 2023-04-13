@@ -13,7 +13,7 @@
 ### Clone this repository
 
 ```bash 
-git clone https://github.com/biel4s/calculator-react.git &&
+git clone https://github.com/biel4s/calculator-react.git
 ```
 
 ### Go to our new folder
