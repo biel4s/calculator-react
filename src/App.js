@@ -59,6 +59,7 @@ export default class App extends Component {
     }
     
     fact = () => {
+	// eslint-disable-next-line
       	const result = eval(this.state.result);
 
         const options = {
