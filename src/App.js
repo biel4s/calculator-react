@@ -87,7 +87,8 @@ export default class App extends Component {
             'X-RapidAPI-Host': 'numbersapi.p.rapidapi.com'
             }
         };
-
+	console.log(process.env.REACT_APP_RAPID_API_KEY)
+	    
         axios.request(options)
         .then((response) => {
             console.log(response.data);
