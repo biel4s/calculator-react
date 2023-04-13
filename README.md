@@ -61,7 +61,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
   
 ### URL 
 ```
-http://numbersapi.com/{RESULT}/math?json
+http://numbersapi.com/{result}/math?json
 ```
 
 ### Figma: 
