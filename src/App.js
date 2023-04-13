@@ -61,7 +61,8 @@ export default class App extends Component {
     fact = () => {
 	// eslint-disable-next-line
       	const result = eval(this.state.result);
-
+	const APIKey = process.env.REACT_APP_API_KEY;
+	
         // const options = {
         //     method: 'GET',
         //     url: `http://localhost:8000/math`,
@@ -83,7 +84,7 @@ export default class App extends Component {
             method: 'GET',
             url: `https://numbersapi.p.rapidapi.com/${result}/math?json=true`,
             headers: {
-            'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+            'X-RapidAPI-Key': APIKey,
             'X-RapidAPI-Host': 'numbersapi.p.rapidapi.com'
             }
         };
