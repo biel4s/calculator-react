@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import './sass/App.scss';
 import Keypad from './components/keypad';
 import Result from './components/result';
@@ -58,36 +59,42 @@ export default class App extends Component {
     }
     
     fact = () => {
-      	const APIKey =
-             //eslint-disable-next-line
-             `http://numbersapi.com/${eval(this.state.result)}/math?json`;
-        
-        // const YOUR_RAPID_API_KEY = '';
-        
-        // const options = {
-        //     method: 'GET',
-        //     headers: {
-        //     'X-RapidAPI-Key': YOUR_RAPID_API_KEY,
-        //     'X-RapidAPI-Host': 'numbersapi.p.rapidapi.com'
-        //     }
-        // };
+      	const result = eval(this.state.result);
 
+        const options = {
+            method: 'GET',
+            url: `http://localhost:8000/math`,
+            params: {
+                number: result
+            }
+        };
+
+        axios.request(options)
+        .then((response) => {
+            console.log(response.data);
+            this.setState({ text: response.data.text });
+
+        }).catch((error) => {
+            console.error(error);
+        });
+	    
+	// const APIKey =
         // //eslint-disable-next-line
-        //fetch(`https://numbersapi.p.rapidapi.com/${eval(this.state.result)}/math?json=true`, options)
-        fetch(APIKey)
-            .then(response => {
-                if (response.ok) {
-                    return response;
-                }
-                throw Error(response.status);
-            })
-            .then(response => response.json())
-            .then(data => {
-                this.setState({ text: data.text });
-            })
-            .catch(error => {
-                throw (error);
-            })
+        // `http://numbersapi.com/${eval(this.state.result)}/math?json`;
+        // fetch(APIKEY)
+        // .then(response => {
+        //     if (response.ok) {
+        //         return response;
+        //     }
+        //     throw Error(response.status);
+        // })
+        // .then(response => response.json())
+        // .then(data => {
+        //     this.setState({ text: data.text });
+        // })
+        // .catch(error => {
+        //     throw (error);
+        // })
     }
 	
     render() {
