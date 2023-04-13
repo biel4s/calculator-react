@@ -62,11 +62,29 @@ export default class App extends Component {
 	// eslint-disable-next-line
       	const result = eval(this.state.result);
 
+        // const options = {
+        //     method: 'GET',
+        //     url: `http://localhost:8000/math`,
+        //     params: {
+        //         number: result
+        //     }
+        // };
+
+        // axios.request(options)
+        // .then((response) => {
+        //     console.log(response.data);
+        //     this.setState({ text: response.data.text });
+
+        // }).catch((error) => {
+        //     console.error(error);
+        // });
+
         const options = {
             method: 'GET',
-            url: `http://localhost:8000/math`,
-            params: {
-                number: result
+            url: `https://numbersapi.p.rapidapi.com/${result}/math?json=true`,
+            headers: {
+            'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+            'X-RapidAPI-Host': 'numbersapi.p.rapidapi.com'
             }
         };
 
