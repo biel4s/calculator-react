@@ -26,6 +26,8 @@ cd calculator-react
 
 ```bash
 npm install
+#OR 
+yarn add
 ```
 
 ### Install React Bootstrap 
