@@ -81,7 +81,7 @@ export default class App extends Component {
 	// const APIKey =
         // //eslint-disable-next-line
         // `http://numbersapi.com/${eval(this.state.result)}/math?json`;
-        // fetch(APIKEY)
+        // fetch(APIKey)
         // .then(response => {
         //     if (response.ok) {
         //         return response;
