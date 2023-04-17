@@ -98,6 +98,7 @@ export default class App extends Component {
             console.error(error);
         });
 	    
+	// ON LOCALHOST
 	// const APIKey =
         // //eslint-disable-next-line
         // `http://numbersapi.com/${eval(this.state.result)}/math?json`;
