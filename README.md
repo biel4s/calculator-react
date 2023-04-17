@@ -35,8 +35,8 @@ npm install react-bootstrap bootstrap sass react-switch
 ```
 
 ### Add your API key to .env file before running locally!
+
 [Get your API key here](https://rapidapi.com/divad12/api/numbers-1)
-### Run
 
 ### Run
 ```bash
