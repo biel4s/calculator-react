@@ -61,24 +61,9 @@ export default class App extends Component {
     fact = () => {
 	// eslint-disable-next-line
       	const result = eval(this.state.result);
+	    
+	// USING APIkey
 	const APIKey = process.env.REACT_APP_API_KEY;
-	
-        // const options = {
-        //     method: 'GET',
-        //     url: `http://localhost:8000/math`,
-        //     params: {
-        //         number: result
-        //     }
-        // };
-
-        // axios.request(options)
-        // .then((response) => {
-        //     console.log(response.data);
-        //     this.setState({ text: response.data.text });
-
-        // }).catch((error) => {
-        //     console.error(error);
-        // });
 
         const options = {
             method: 'GET',
@@ -98,7 +83,7 @@ export default class App extends Component {
             console.error(error);
         });
 	    
-	// ON LOCALHOST
+	// USING LOCALHOST
 	// const APIKey =
         // //eslint-disable-next-line
         // `http://numbersapi.com/${eval(this.state.result)}/math?json`;
