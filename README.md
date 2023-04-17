@@ -28,23 +28,15 @@ cd calculator-react
 npm install
 ```
 
-### Install React Bootstrap 
+### Install all required packages 
   
 ```bash 
 npm install react-bootstrap bootstrap sass react-switch
 ```
 
-### Install React Sass Stylesheet
-  
-```bash 
-npm install sass
-```
-
-### Install React Switch
-
-```bash 
-npm install react-switch
-```
+### Add your API key to .env file before running locally!
+[Get your API key here](https://rapidapi.com/divad12/api/numbers-1)
+### Run
 
 ### Run
 ```bash
