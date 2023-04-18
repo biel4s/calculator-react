@@ -58,7 +58,7 @@ body.dark {
 
                     &:active {
                         background-color: map-get($map: $dark, $key: number-active);
-                        transition: 0s;
+                        transition: 0;
                     }
                 }
 
@@ -74,7 +74,7 @@ body.dark {
                     &:active {
                         background-color: map-get($map: $dark, $key: sign-active);
                         color: map-get($map: $dark, $key: sign-color);
-                        transition: 0s;
+                        transition: 0;
                     }
                 }
 
@@ -89,7 +89,7 @@ body.dark {
 
                     &:active {
                         background-color: map-get($map: $dark, $key: action-active);
-                        transition: 0s;
+                        transition: 0;
                     }
                 }
 
