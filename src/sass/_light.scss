@@ -58,7 +58,7 @@ body.light {
 
                     &:active {
                         background-color: map-get($map: $ligth, $key: number-active);
-                        transition: 0s;
+                        transition: 0;
                     }
                 }
 
@@ -74,7 +74,7 @@ body.light {
                     &:active {
                         background-color: map-get($map: $ligth, $key: sign-active);
                         color: map-get($map: $ligth, $key: sign-active);
-                        transition: 0s;
+                        transition: 0;
                     }
                 }
 
@@ -89,7 +89,7 @@ body.light {
 
                     &:active {
                         background-color: map-get($map: $ligth, $key: action-active);
-                        transition: 0s;
+                        transition: 0;
                     }
                 }
 
