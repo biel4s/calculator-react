@@ -51,7 +51,7 @@ body.light .container .calculator .keypad .number:hover {
 }
 body.light .container .calculator .keypad .number:active {
   background-color: #727272;
-  transition: 0s;
+  transition: 0;
 }
 body.light .container .calculator .keypad .sign {
   color: #000;
@@ -64,7 +64,7 @@ body.light .container .calculator .keypad .sign:hover {
 body.light .container .calculator .keypad .sign:active {
   background-color: #724700;
   color: #724700;
-  transition: 0s;
+  transition: 0;
 }
 body.light .container .calculator .keypad .action {
   color: #FFF;
@@ -76,7 +76,7 @@ body.light .container .calculator .keypad .action:hover {
 }
 body.light .container .calculator .keypad .action:active {
   background-color: #333333;
-  transition: 0s;
+  transition: 0;
 }
 body.light .container .calculator .keypad #clear {
   grid-column: 1/3;
@@ -137,7 +137,7 @@ body.dark .container .calculator .keypad .number:hover {
 }
 body.dark .container .calculator .keypad .number:active {
   background-color: #727272;
-  transition: 0s;
+  transition: 0;
 }
 body.dark .container .calculator .keypad .sign {
   color: #FFF;
@@ -150,7 +150,7 @@ body.dark .container .calculator .keypad .sign:hover {
 body.dark .container .calculator .keypad .sign:active {
   background-color: #FFF;
   color: #FFF;
-  transition: 0s;
+  transition: 0;
 }
 body.dark .container .calculator .keypad .action {
   background-color: #A5A5A5;
@@ -162,7 +162,7 @@ body.dark .container .calculator .keypad .action:hover {
 }
 body.dark .container .calculator .keypad .action:active {
   background-color: #D7D7D7;
-  transition: 0s;
+  transition: 0;
 }
 body.dark .container .calculator .keypad #clear {
   grid-column: 1/3;
