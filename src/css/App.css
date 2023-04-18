@@ -83,7 +83,6 @@ body.light .container .calculator .keypad #clear {
 }
 body.light .container .calculator .keypad #zero {
   grid-column: 1/3;
-  text-align: left !important;
   padding-left: 25px;
 }
 
@@ -169,6 +168,5 @@ body.dark .container .calculator .keypad #clear {
 }
 body.dark .container .calculator .keypad #zero {
   grid-column: 1/3;
-  text-align: left !important;
   padding-left: 25px;
 }
