@@ -34,11 +34,8 @@ npm install
 npm install react-bootstrap bootstrap sass react-switch axios
 ```
 
-### Add your API key to .env file before running locally!
-
-[Get your API key here](https://rapidapi.com/divad12/api/numbers-1)
-
 ### Run
+
 ```bash
 npm start
 ```
@@ -51,6 +48,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
   
   http://numbersapi.com
   
+  [Get your API key here](https://rapidapi.com/divad12/api/numbers-1)
 ### URL 
 ```
 http://numbersapi.com/{result}/math?json
