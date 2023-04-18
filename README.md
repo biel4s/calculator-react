@@ -31,7 +31,7 @@ npm install
 ### Install all required packages 
   
 ```bash 
-npm install react-bootstrap bootstrap sass react-switch
+npm install react-bootstrap bootstrap sass react-switch axios
 ```
 
 ### Add your API key to .env file before running locally!
