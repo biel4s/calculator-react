@@ -62,43 +62,43 @@ export default class App extends Component {
 	// eslint-disable-next-line
       	const result = eval(this.state.result);
 	    
-	// USING APIKEY
-	// const APIKey = process.env.REACT_APP_API_KEY;
-        // const options = {
-        //     method: 'GET',
-        //     url: `https://numbersapi.p.rapidapi.com/${result}/math?json=true`,
-        //     headers: {
-        //     'X-RapidAPI-Key': APIKey,
-        //     'X-RapidAPI-Host': 'numbersapi.p.rapidapi.com'
-        //     }
-        // };
-	    
-        // axios.request(options)
-        // .then((response) => {
-        //     this.setState({ text: response.data.text });
+	const APIKey = process.env.REACT_APP_API_KEY;
+	const options = {
+	    method: 'GET',
+	    url: `https://numbersapi.p.rapidapi.com/${result}/math?json=true`,
+	    headers: {
+	    'X-RapidAPI-Key': APIKey,
+	    'X-RapidAPI-Host': 'numbersapi.p.rapidapi.com'
+	    }
+	};
 
-        // }).catch((error) => {
-        //     console.error(error);
-        // });
+	axios.request(options)
+	.then((response) => {
+	    this.setState({ text: response.data.text });
+
+	}).catch((error) => {
+	    console.error(error);
+	});
 	    
 	// USING LOCALHOST
-	const APIKey =
-            //eslint-disable-next-line
-            `http://numbersapi.com/${result}/math?json`;
-        axios.get(APIKey)
-        .then(response => {
-            if (response.status === 200) {
-                return response;
-            }
-            throw new Error(response.status);
-        })
-        .then(response => response.data)
-        .then(data => {
-            this.setState({ text: data.text });
-        })
-        .catch(error => {
-            throw (error);
-        })
+	// const APIKey= //eslint-disable-next-line
+	// `http: //numbersapi.com/${result}/math?json`;
+
+	// axios.get(APIKey) .then(response=> {
+	//         if (response.status===200) {
+	//             return response;
+	//         }
+
+	//         throw new Error(response.status);
+
+	//     }) .then(response=> response.data) .then(data=> {
+	//         this.setState({
+	//             text: data.text
+	//         });
+
+	// }) .catch(error=> {
+	//         throw (error);
+	//     })
     }
 	
     render() {
