@@ -61,7 +61,7 @@ https://www.figma.com/file/J5bNMeomK0TTKtDSsz4twP/Calculator-React
   
 ---
 
-## Things to do: 
+## TODOs: 
 - Hide API
 - Number at the top after clicking action button
 - .
