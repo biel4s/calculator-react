@@ -84,7 +84,7 @@ export default class App extends Component {
 		});
 	    
 	// USING LOCALHOST
-	// const APIKey= `http: //numbersapi.com/${result}/math?json`;
+	// const APIKey= `http://numbersapi.com/${result}/math?json`;
 	
 	// //eslint-disable-next-line
 	// axios
