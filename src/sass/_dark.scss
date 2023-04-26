@@ -102,5 +102,30 @@ body.dark {
                 }
             }
         }
+        .footer {
+            color: map-get($map: $dark, $key: text-color);
+            transition: 0.3s;
+            a {
+                color: map-get($map: $ligth, $key: text-color);
+                position:relative;
+                transition: 0.3s;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    left: 0;
+                    margin-top: 35px;
+                    border-bottom: 3px solid #fe9f06;
+                    opacity: 0;
+                    transition: all 0.3s ease-in-out;
+				}
+                &:hover {
+                    color: #fe9f06;
+                    &:after {
+                        opacity: 1;
+                    }
+                }
+			}
+        }
     }
 }
