@@ -89,7 +89,7 @@ body.light {
 		}
 	}
 	.footer {
-		color: map-get($map: $ligth, $key: text-color);
+		color: map-get($map: $dark, $key: text-color);
 		transition: 0.5s;
 		a {
 			color: map-get($map: $dark, $key: text-color);
