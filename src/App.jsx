@@ -123,7 +123,19 @@ export default class App extends Component {
                             </label>
                         </div>
                     </div>
-                    
+                    <footer className="footer d-flex justify-content-center pt-5 mt-5">
+			<h3 className="me-3">Kamil Bielawski</h3>
+			<h3 className="ms-3">
+				<a
+					href="https://github.com/biel4s/calculator-react"
+					className="text-decoration-none"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Github
+				</a>
+			 </h3>
+		    </footer>
                     {/* left - position-absolute top-50 start-0 translate-middle-y ps-5 */}
                     {/* right - position-absolute top-50 end-0 translate-middle-y pe-5 */}
                     {/* middle - position-absolute top-50 start-50 translate-middle */}				
