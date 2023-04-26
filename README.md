@@ -63,5 +63,4 @@ https://www.figma.com/file/J5bNMeomK0TTKtDSsz4twP/Calculator-React
 
 ## TODOs: 
 - Hide API
-- Number at the top after clicking action button
-- .
+- Make it working with the keyboard
