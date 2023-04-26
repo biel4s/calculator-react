@@ -62,6 +62,7 @@ export default class App extends Component {
 	// eslint-disable-next-line
       	const result = eval(this.state.result);
 	    
+	//USING RAPID API KEY
 	const APIKey = process.env.REACT_APP_API_KEY;
 	const options = {
 	    method: 'GET',
