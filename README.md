@@ -1,6 +1,6 @@
 # Calculator React
 
-![](https://i.imgur.com/ihkQZbJ.gif)
+![](https://i.imgur.com/LyWF3yw.gif)
 
 ## Light Mode
 ![](https://i.imgur.com/xKjXoi5.png)
