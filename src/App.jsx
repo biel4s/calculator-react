@@ -104,26 +104,31 @@ export default class App extends Component {
     render() {
         return (
             <div className="container d-inline w-100 h-100 justify-content-center align-items-center">                  	
-                    <h1 className="text-center pt-3">Calculator React</h1>		                           			{/* Title */}
+		{/* Title */}
+		<h1 className="text-center">Calculator React</h1>
 
-                    <div className="d-flex w-100 align-items-center justify-content-around pt-5 mt-5">					{/* Main content */}
-                        <div className="facts w-25 text-center">
-                            <h2>Fun fact</h2>					                                                        {/* Facts about result */}
-                            <p className="lead">{this.state.text}</p>
-                        </div>
-                        <div className="calculator text-center rounded-4">							        {/* Calculator */}
-                            <Result result={this.state.result} />
-                            <Keypad onClick={this.onClick} />
-                        </div>
-
-                        <div className="switch-theme w-25 text-center">									{/* Theme */}
-                            <h2>Dark Mode</h2>
-                            <label className="mt-3">
-                                <DarkTheme />
-                            </label>
-                        </div>
-                    </div>
-                    <footer className="footer d-flex justify-content-center pt-5 mt-5">
+		{/* Main content */}
+		<div className="d-flex w-100 align-items-center justify-content-around pt-5 mt-5">
+			{/* Facts about result */}
+			<div className="facts w-25 text-center">
+				<h2>Fun fact</h2>
+				<p className="lead">{this.state.text}</p>
+			</div>
+			{/* Calculator */}
+			<div className="calculator text-center rounded-4">
+				<Result result={this.state.result} />
+				<Keypad onClick={this.onClick} />
+			</div>
+			{/* Theme */}
+			<div className="switch-theme w-25 text-center">
+				<h2>Dark Mode</h2>
+				<label className="mt-3">
+					<DarkTheme />
+				</label>
+			</div>
+		</div>
+		{/* Footer */}
+		<footer className="footer d-flex justify-content-center pt-5 mt-5">
 			<h3 className="me-3">Kamil Bielawski</h3>
 			<h3 className="ms-3">
 				<a
@@ -135,11 +140,11 @@ export default class App extends Component {
 					Github
 				</a>
 			 </h3>
-		    </footer>
-                    {/* left - position-absolute top-50 start-0 translate-middle-y ps-5 */}
-                    {/* right - position-absolute top-50 end-0 translate-middle-y pe-5 */}
-                    {/* middle - position-absolute top-50 start-50 translate-middle */}				
-                </div>
+	   	</footer>
+		    {/* left - position-absolute top-50 start-0 translate-middle-y ps-5 */}
+		    {/* right - position-absolute top-50 end-0 translate-middle-y pe-5 */}
+		    {/* middle - position-absolute top-50 start-50 translate-middle */}				
+	</div>
         );
     }
 }
