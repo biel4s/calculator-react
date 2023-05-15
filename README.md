@@ -3,10 +3,10 @@
 ![](https://i.imgur.com/LyWF3yw.gif)
 
 ## Light Mode
-![](https://i.imgur.com/yIU4JPK.png)
+![](https://i.imgur.com/SoQT3iL.png)
 
 ## Dark Mode
-![](https://i.imgur.com/QKpCwJ8.png)
+![](https://i.imgur.com/I9fKpzO.png)
 ---
 # Instructions
 
