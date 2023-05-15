@@ -13,6 +13,10 @@ body.light {
 		color: map-get($map: $dark, $key: text-color);
 		transition: 0.5s;
 	}
+	.lead {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
 	.calculator {
 		background-color: map-get($map: $ligth, $key: bg-color);
 		border: 10px solid map-get($map: $ligth, $key: bg-color);
