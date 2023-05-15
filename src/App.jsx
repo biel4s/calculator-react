@@ -117,7 +117,9 @@ export default class App extends Component {
 			{/* Facts about result */}
 			<div className="facts w-25 text-center">
 				<h2>Fun fact</h2>
-				<p className="lead">{this.state.text}</p>
+				<p className="lead w-60 align-items-center">
+					{this.state.text}
+				</p>
 			</div>
 			{/* Calculator */}
 			<div className="calculator text-center rounded-4">
