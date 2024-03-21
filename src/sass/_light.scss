@@ -6,6 +6,7 @@
 
 body.light {
 	background-image: linear-gradient(to right, #db8700, #ffdba0);
+
 	h1,
 	h2,
 	label,
@@ -13,15 +14,18 @@ body.light {
 		color: map-get($map: $dark, $key: text-color);
 		transition: 0.5s;
 	}
+
 	.lead {
 		margin-left: 20%;
 		margin-right: 20%;
 	}
+
 	.calculator {
 		background-color: map-get($map: $ligth, $key: bg-color);
 		border: 10px solid map-get($map: $ligth, $key: bg-color);
 		box-shadow: 15px 15px 30px 10px rgba(0, 0, 0, 0.5);
 		transition: 0.5s;
+
 		input[type="text"] {
 			background-color: map-get($map: $ligth, $key: bg-color);
 			color: map-get($map: $ligth, $key: number-color);
@@ -30,10 +34,12 @@ body.light {
 			font-size: 45px;
 			transition: 0.5s;
 		}
+
 		.keypad {
 			grid-template-columns: repeat(4, 5rem);
 			grid-auto-rows: minmax(5rem, auto);
 			font-size: 40px;
+
 			button {
 				cursor: pointer;
 				border: none;
@@ -41,13 +47,16 @@ body.light {
 				margin: 5px;
 				transition: 0.7s;
 			}
+
 			.number {
 				color: map-get($map: $ligth, $key: number-color);
 				background-color: map-get($map: $ligth, $key: number-border);
+
 				&:hover {
 					background-color: map-get($map: $ligth, $key: number-hover);
 					transition: 0.3s;
 				}
+
 				&:active {
 					background-color: map-get(
 						$map: $ligth,
@@ -56,26 +65,32 @@ body.light {
 					transition: 0;
 				}
 			}
+
 			.sign {
 				color: map-get($map: $ligth, $key: sign-color);
 				background-color: map-get($map: $ligth, $key: sign-border);
+
 				&:hover {
 					background-color: map-get($map: $ligth, $key: sign-hover);
 					transition: 0.3s;
 				}
+
 				&:active {
 					background-color: map-get($map: $ligth, $key: sign-active);
 					color: map-get($map: $ligth, $key: sign-active);
 					transition: 0;
 				}
 			}
+
 			.action {
 				color: map-get($map: $ligth, $key: action-color);
 				background-color: map-get($map: $ligth, $key: action-border);
+
 				&:hover {
 					background-color: map-get($map: $ligth, $key: action-hover);
 					transition: 0.3s;
 				}
+
 				&:active {
 					background-color: map-get(
 						$map: $ligth,
@@ -84,21 +99,26 @@ body.light {
 					transition: 0;
 				}
 			}
+
 			#clear {
 				grid-column: 1/3;
 			}
+
 			#zero {
 				grid-column: 1/3;
 			}
 		}
 	}
+
 	.footer {
 		color: map-get($map: $dark, $key: text-color);
 		transition: 0.5s;
+
 		a {
 			color: map-get($map: $dark, $key: text-color);
 			position: relative;
 			transition: 0.5s;
+
 			&:after {
 				content: "";
 				position: absolute;
@@ -109,12 +129,38 @@ body.light {
 				opacity: 0;
 				transition: all 0.3s ease-in-out;
 			}
+
 			&:hover {
 				color: #925100;
+
 				&:after {
 					opacity: 1;
 				}
 			}
 		}
 	}
+}
+
+//Media Queries
+
+@media screen and (max-width: 768px) {
+	.content {
+		flex-direction: column;
+	}
+
+	.facts {
+		order: 2;
+		margin-top: 25px;
+		width: 90vw !important;
+	}
+
+	.switch-theme {
+		order: 0;
+		margin-top: 25px;
+		width: 90vw !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
 }

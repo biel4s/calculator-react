@@ -13,14 +13,13 @@ export default class App extends Component {
     }
 
     onClick = button => {
-        if (button === 'clear') {								    	//User clicks Clear
+        if (button === 'clear') {
             this.clear();
         }
-        else if (button === 'cancel') {							       		//User clicks Cancel
+        else if (button === 'cancel') {
             this.cancel();
-            //console.log([this.state.result]);
         }
-        else if (button === 'calculate') {							    	//User clicks Equals sign
+        else if (button === 'calculate') {
             this.calculate();
             this.fact();
             if (this.state.result === 'Error' || this.state.result === 'function Error()') {
@@ -28,8 +27,7 @@ export default class App extends Component {
             }
 		}
         else {
-			this.setState({ result: this.state.result + button });	    			//User clicks anything else
-			//console.log([this.state.result]);
+			this.setState({ result: this.state.result + button });
         }
     }
 
@@ -108,33 +106,26 @@ export default class App extends Component {
 	
     render() {
         return (
-            <div className="container d-inline w-100 h-100 justify-content-center align-items-center">                  	
-		{/* Title */}
+            <div className="container d-inline w-100 h-100 justify-content-center align-items-center">
 		<h1 className="text-center">Calculator React</h1>
-
-		{/* Main content */}
-		<div className="d-flex w-100 align-items-center justify-content-around pt-5 mt-5">
-			{/* Facts about result */}
+		<div className="content d-flex w-100 align-items-center justify-content-around mt-5">
 			<div className="facts w-25 text-center">
 				<h2>Fun fact</h2>
 				<p className="lead w-60 align-items-center">
 					{this.state.text}
 				</p>
 			</div>
-			{/* Calculator */}
 			<div className="calculator text-center rounded-4">
 				<Result result={this.state.result} />
 				<Keypad onClick={this.onClick} />
 			</div>
-			{/* Theme */}
 			<div className="switch-theme w-25 text-center">
 				<h2>Dark Mode</h2>
-				<label className="mt-3">
+				<label>
 					<DarkTheme />
 				</label>
 			</div>
 		</div>
-		{/* Footer */}
 		<footer className="footer d-flex justify-content-center pt-5 mt-5">
 			<h3 className="me-3">Kamil Bielawski</h3>
 			<h3 className="ms-3">
@@ -148,9 +139,6 @@ export default class App extends Component {
 				</a>
 			 </h3>
 	   	</footer>
-		    {/* left - position-absolute top-50 start-0 translate-middle-y ps-5 */}
-		    {/* right - position-absolute top-50 end-0 translate-middle-y pe-5 */}
-		    {/* middle - position-absolute top-50 start-50 translate-middle */}				
 	</div>
         );
     }
